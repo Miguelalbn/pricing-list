@@ -1,0 +1,67 @@
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn);
+*{
+margin: 0;
+padding:0;
+}
+body{
+font-family: 'Vollkorn','Serif';
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 16px;
+}
+main{
+    text-align: center;
+    font-family: 'Vollkorn','Serif';
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vollkorn','Serif';
+    text-transform: uppercase;
+}
+article{
+background-color: hsl(0, 45%, 98%);
+display: inline-block;
+width: 20%;
+height: 100%;
+color:  #80918e;
+text-align: left;
+font-family: 'Vollkorn','Serif';
+}
+article h2{
+font-size: 1.5em;
+color: #FFF;
+background-color: #80918e;
+text-align: center;
+font-family: 'Vollkorn','Serif';
+}
+article h2:hover{
+    background-color: #0cc1f8;
+    cursor: pointer;
+    border: none;
+}
+
+article .price{
+font-size: 60px;
+font-weight: bold;
+background-color: #eff8f6;
+text-align: center;
+font-family: 'Vollkorn','Serif';
+}
+article button{
+background-color:  #80918e;
+color: #FFF;
+padding: 15px 55px;
+font-size: 1em;
+cursor: pointer;
+border: none;
+font-family: 'Vollkorn','Serif';
+}
+article button:hover{
+background-color:#0cc1f8;
+}
+article .price:hover{
+    background-color: #0cc1f8;
+    cursor: pointer;
+    border: none;
+}
